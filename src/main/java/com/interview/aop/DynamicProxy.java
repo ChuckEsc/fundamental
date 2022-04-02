@@ -25,7 +25,8 @@ class TestDynamicProxy{
         Subject realSubject = new RealSubject();
         Subject proxyInstance = (Subject) Proxy.newProxyInstance(
                 Subject.class.getClassLoader(),
-                realSubject.getClass().getInterfaces(), // return an array of interfaces directly implemented by this class
+                realSubject.getClass().getInterfaces(),
+                // return an array of interfaces directly implemented by this class
                 new DynamicProxy(realSubject)
         );
 

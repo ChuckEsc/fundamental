@@ -13,7 +13,6 @@ public class Main {
         ExtendsPrint<Guitar> extendsPrint = new ExtendsPrint<>(new Guitar());
         extendsPrint.print();
 
-
     }
 }
 
