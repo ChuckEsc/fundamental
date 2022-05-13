@@ -24,7 +24,6 @@ public class LocalInitial {
 //        initial.amount = BigDecimal.TEN;
         initial.amount = BigDecimal.valueOf(3.1415926);
         System.out.println("initial = " + initial);
-
         System.out.println("initial.amount = " + initial.amount);
     }
 }
