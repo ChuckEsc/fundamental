@@ -21,7 +21,7 @@ public class LocalInitial {
     public static void main(String[] args) {
         LocalInitial initial = new LocalInitial();
         initial.startDate = LocalDate.of(2020, 9, 10);
-//        initial.amount = BigDecimal.TEN;
+        initial.amount = BigDecimal.TEN;
         initial.amount = BigDecimal.valueOf(3.1415926);
         System.out.println("initial = " + initial);
         System.out.println("initial.amount = " + initial.amount);
